@@ -7,10 +7,48 @@
 
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="/src/style.css">
+    <!-- custom stylesheet -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
     <title>bulls & bears</title>
 </head>
 <body>
-    <h1>hello world !</h1>
+    <div class="main">
+        <h1 class="heading">Stock Profile & Loss Calculator</h1>
+        <div class="input-sections">
+            <div id="initial-price_section">
+                <p class="msz" >Initial Price</p>
+                <input type="number" name="initial_price" id="initial_price" class="input" placeholder="Enter Initial Price Here">
+            </div>
+            
+            <div id="Quantity-Of-Stocks_section">
+                <p class="msz">Quantity Of Stocks</p>
+                <input type="number" name="Quantity_Of_Stocks" id="Quantity_Of_Stocks" class="input" placeholder="Enter Number Of Stocks Bought">
+            </div>
+            
+            <div id="current-Price_section">
+                <p class="msz">Current Price</p>
+                <input type="number" name="current_price-input" id="current_price" class="input" placeholder="Enter Your Current Price">
+            </div>
+
+            <div id="tell-me-button_section">
+                <input type="button" value="Tell Me" id="tell_me" class="input-btn">
+            </div>
+
+            <div id="result_section">
+                <p class="result msz"></p>
+            </div>
+
+        </div>
+    </div>
 
 
 <script src="/src/app.js" defer></script>
