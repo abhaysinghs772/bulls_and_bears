@@ -52,3 +52,15 @@ body {
   margin: auto;
   display: block;
 }
+
+.result {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+footer p {
+  margin-top: 6rem;
+  font-size: large;
+  text-align: center;
+}
